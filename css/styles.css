@@ -39,6 +39,11 @@ img {
   max-width: 900px;
 }
 
+.bg-primary {
+  background: #fcf5e9;
+  padding: 0 0.5rem;
+}
+
 /* Header */
 .header-flex {
   margin: 1.5rem auto;
@@ -69,6 +74,21 @@ img {
   font-weight: 600;
 }
 
+/* Hero */
+.hero {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  line-height: 1.4;
+  font-weight: normal;
+}
+
 /* Media Queries */
 
 /* Screens less than 768px */
@@ -76,5 +96,13 @@ img {
   .header-flex {
     flex-direction: column;
     gap: 1.5rem;
+  }
+
+  .hero {
+    height: 300px;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
   }
 }
