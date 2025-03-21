@@ -96,6 +96,26 @@ img {
   font-weight: normal;
 }
 
+/* Gallery */
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery-item {
+  width: calc(33.333% - 20px); /* Set item with to 33.333% minus gap */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.gallery-item img {
+  border-radius: 10px;
+}
+
+.gallery-item:hover {
+  opacity: 0.9;
+}
 /* Media Queries */
 
 /* Screens less than 768px */
@@ -111,5 +131,9 @@ img {
 
   .hero h2 {
     font-size: 1.8rem;
+  }
+
+  .gallery-item {
+    width: calc(50% - 20px);
   }
 }
