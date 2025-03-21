@@ -22,3 +22,59 @@ ul {
 img {
   width: 100%;
 }
+
+/* Utility Classes */
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.container-lg {
+  max-width: 1400px;
+}
+
+.container-sm {
+  max-width: 900px;
+}
+
+/* Header */
+.header-flex {
+  margin: 1.5rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 130px;
+}
+
+.main-menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.main-menu a {
+  padding: 0.5rem 1rem;
+}
+
+.main-menu a:hover {
+  background: #fcf5e9;
+}
+
+.main-menu .current {
+  background: #fcf5e9;
+  font-weight: 600;
+}
+
+/* Media Queries */
+
+/* Screens less than 768px */
+@media screen and (max-width: 768px) {
+  .header-flex {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
