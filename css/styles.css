@@ -51,6 +51,12 @@ img {
   padding: 0 0.5rem;
 }
 
+.section-heading {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 /* Header */
 .header-flex {
   margin: 1.5rem auto;
@@ -142,6 +148,23 @@ img {
 
 .footer .social a {
   margin: 0.2rem;
+}
+
+/* Services */
+.services {
+  background: #333;
+  color: #fff;
+  padding: 3rem 0 4rem;
+}
+
+.services-flex {
+  display: flex;
+  gap: 2rem;
+}
+
+.service-item h4 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
 }
 
 /* Media Queries */
