@@ -123,6 +123,24 @@ img {
   opacity: 0.9;
 }
 
+/* Team */
+.team {
+  padding: 3rem 0 4rem;
+}
+
+.team-flex {
+  display: flex;
+  gap: 20px;
+}
+
+.team-item {
+  flex: 1;
+}
+
+.team-item img {
+  border-radius: 10px;
+}
+
 /* Footer */
 .footer {
   border-top: 1px solid #aaa;
@@ -172,7 +190,9 @@ img {
 /* Screens less than 768px */
 @media screen and (max-width: 768px) {
   .header-flex,
-  .footer-flex {
+  .footer-flex,
+  .services-flex,
+  .team-flex {
     flex-direction: column;
     gap: 1.5rem;
   }
